@@ -1,0 +1,52 @@
+﻿Build started 11/19/2015 11:26:39 PM.
+     1>Project "D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TactonicDemos\TactonicVisualizerWin.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TactonicDemos\\..\..\Stable\TactonicLib\include" /I"D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TactonicDemos\\include" /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt src\Contours.cpp src\DisplayViews.cpp src\TactonicVisualizer.cpp
+         Contours.cpp
+     1>src\Contours.cpp(41): warning C4554: '>>' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>src\Contours.cpp(42): warning C4554: '>>' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>src\Contours.cpp(91): warning C4554: '>>' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>src\Contours.cpp(95): warning C4554: '>>' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>src\Contours.cpp(98): warning C4554: '<<' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>src\Contours.cpp(116): warning C4554: '>>' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>src\Contours.cpp(117): warning C4554: '>>' : check operator precedence for possible error; use parentheses to clarify precedence
+         DisplayViews.cpp
+     1>C:\Program Files (x86)\Windows Kits\8.0\Include\shared\minwindef.h(127): warning C4005: 'CALLBACK' : macro redefinition
+                 d:\library\tactonic-hp-2012\visualizer\tactoniccode\tactonicdemos\include\glut.h(34) : see previous definition of 'CALLBACK'
+         TactonicVisualizer.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TactonicDemos\x64\Debug\TactonicVisualizerWin.exe" /NOLOGO /LIBPATH:"D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TactonicDemos\\lib" /LIBPATH:"D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TactonicDemos\\..\..\Stable\TactonicLib\lib" tactonicTouch.lib tactonic.lib glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TactonicDemos\x64\Debug\TactonicVisualizerWin.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TactonicDemos\x64\Debug\TactonicVisualizerWin.lib" /MACHINE:X64 x64\Debug\Contours.obj
+         x64\Debug\DisplayViews.obj
+         x64\Debug\TactonicVisualizer.obj
+     1>DisplayViews.obj : error LNK2019: unresolved external symbol glutSwapBuffers referenced in function "public: void __cdecl DisplayViews::display(struct tactonic_frame_s *,struct tactonic_touch_frame_s *)" (?display@DisplayViews@@QEAAXPEAUtactonic_frame_s@@PEAUtactonic_touch_frame_s@@@Z)
+     1>DisplayViews.obj : error LNK2019: unresolved external symbol glutReshapeWindow referenced in function "public: void __cdecl DisplayViews::init(struct tactonic_device_s,int,char * *)" (?init@DisplayViews@@QEAAXUtactonic_device_s@@HPEAPEAD@Z)
+     1>DisplayViews.obj : error LNK2019: unresolved external symbol glutBitmapCharacter referenced in function "public: void __cdecl DisplayViews::textView(struct tactonic_frame_s *)" (?textView@DisplayViews@@QEAAXPEAUtactonic_frame_s@@@Z)
+     1>TactonicVisualizer.obj : error LNK2019: unresolved external symbol Tactonic_GetDeviceList referenced in function main
+     1>TactonicVisualizer.obj : error LNK2019: unresolved external symbol Tactonic_StartDevice referenced in function main
+     1>TactonicVisualizer.obj : error LNK2019: unresolved external symbol Tactonic_CreateFrame referenced in function main
+     1>TactonicVisualizer.obj : error LNK2019: unresolved external symbol Tactonic_CopyFrame referenced in function "void __cdecl frameCallback(struct tactonic_frame_event_s *)" (?frameCallback@@YAXPEAUtactonic_frame_event_s@@@Z)
+     1>TactonicVisualizer.obj : error LNK2019: unresolved external symbol Tactonic_AddFrameCallback referenced in function main
+     1>TactonicVisualizer.obj : error LNK2019: unresolved external symbol TactonicTouch_DetectorInitiation referenced in function main
+     1>TactonicVisualizer.obj : error LNK2019: unresolved external symbol TactonicTouch_CreateDetector referenced in function main
+     1>TactonicVisualizer.obj : error LNK2019: unresolved external symbol TactonicTouch_StartDetector referenced in function main
+     1>TactonicVisualizer.obj : error LNK2019: unresolved external symbol TactonicTouch_CreateFrame referenced in function main
+     1>TactonicVisualizer.obj : error LNK2019: unresolved external symbol TactonicTouch_AddTouchCallback referenced in function main
+     1>TactonicVisualizer.obj : error LNK2019: unresolved external symbol TactonicTouch_CopyFrame referenced in function "void __cdecl touchCallback(struct tactonic_touch_frame_event_s *)" (?touchCallback@@YAXPEAUtactonic_touch_frame_event_s@@@Z)
+     1>TactonicVisualizer.obj : error LNK2019: unresolved external symbol TactonicTouch_AllocateTouchFrame referenced in function "void __cdecl touchCallback0(struct tactonic_touch_frame_event_s *)" (?touchCallback0@@YAXPEAUtactonic_touch_frame_event_s@@@Z)
+     1>TactonicVisualizer.obj : error LNK2019: unresolved external symbol __glutInitWithExit referenced in function glutInit_ATEXIT_HACK
+     1>TactonicVisualizer.obj : error LNK2019: unresolved external symbol glutInitDisplayMode referenced in function main
+     1>TactonicVisualizer.obj : error LNK2019: unresolved external symbol glutInitWindowPosition referenced in function main
+     1>TactonicVisualizer.obj : error LNK2019: unresolved external symbol glutInitWindowSize referenced in function main
+     1>TactonicVisualizer.obj : error LNK2019: unresolved external symbol glutMainLoop referenced in function main
+     1>TactonicVisualizer.obj : error LNK2019: unresolved external symbol __glutCreateWindowWithExit referenced in function glutCreateWindow_ATEXIT_HACK
+     1>TactonicVisualizer.obj : error LNK2019: unresolved external symbol glutDisplayFunc referenced in function main
+     1>TactonicVisualizer.obj : error LNK2019: unresolved external symbol glutReshapeFunc referenced in function main
+     1>TactonicVisualizer.obj : error LNK2019: unresolved external symbol glutKeyboardFunc referenced in function main
+     1>TactonicVisualizer.obj : error LNK2019: unresolved external symbol glutIdleFunc referenced in function main
+     1>D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TactonicDemos\x64\Debug\TactonicVisualizerWin.exe : fatal error LNK1120: 25 unresolved externals
+     1>Done Building Project "D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TactonicDemos\TactonicVisualizerWin.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.65

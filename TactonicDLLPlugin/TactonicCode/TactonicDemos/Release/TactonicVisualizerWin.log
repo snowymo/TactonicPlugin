@@ -1,0 +1,56 @@
+﻿Build started 11/19/2015 12:44:28 PM.
+     1>Project "D:\Library\Tactonic-hp\visualizer\TactonicCode\TactonicDemos -send out version\TactonicVisualizerWin.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"D:\Library\Tactonic-hp\visualizer\TactonicCode\TactonicDemos -send out version\\..\..\Stable\TactonicLib\include" /I"D:\Library\Tactonic-hp\visualizer\TactonicCode\TactonicDemos -send out version\\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt src\Contours.cpp src\DisplayViews.cpp src\TactonicVisualizer.cpp
+         Contours.cpp
+     1>src\Contours.cpp(41): warning C4554: '>>': check operator precedence for possible error; use parentheses to clarify precedence
+     1>src\Contours.cpp(42): warning C4554: '>>': check operator precedence for possible error; use parentheses to clarify precedence
+     1>src\Contours.cpp(91): warning C4554: '>>': check operator precedence for possible error; use parentheses to clarify precedence
+     1>src\Contours.cpp(95): warning C4554: '>>': check operator precedence for possible error; use parentheses to clarify precedence
+     1>src\Contours.cpp(98): warning C4554: '<<': check operator precedence for possible error; use parentheses to clarify precedence
+     1>src\Contours.cpp(116): warning C4554: '>>': check operator precedence for possible error; use parentheses to clarify precedence
+     1>src\Contours.cpp(117): warning C4554: '>>': check operator precedence for possible error; use parentheses to clarify precedence
+         DisplayViews.cpp
+         TactonicVisualizer.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Library\Tactonic-hp\visualizer\TactonicCode\TactonicDemos -send out version\Release\TactonicVisualizerWin.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:\Library\Tactonic-hp\visualizer\TactonicCode\TactonicDemos -send out version\\lib" /LIBPATH:"D:\Library\Tactonic-hp\visualizer\TactonicCode\TactonicDemos -send out version\\..\..\Stable\TactonicLib\lib" /ALLOWBIND:NO tactonicTouch.lib tactonic.lib glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\Library\Tactonic-hp\visualizer\TactonicCode\TactonicDemos -send out version\Release\TactonicVisualizerWin.pdb" /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Library\Tactonic-hp\visualizer\TactonicCode\TactonicDemos -send out version\Release\TactonicVisualizerWin.lib" /MACHINE:X86 /SAFESEH Release\Contours.obj
+         Release\DisplayViews.obj
+         Release\TactonicVisualizer.obj
+         Generating code
+         All 409 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+         Finished generating code
+         TactonicVisualizerWin.vcxproj -> D:\Library\Tactonic-hp\visualizer\TactonicCode\TactonicDemos -send out version\Release\TactonicVisualizerWin.exe
+       PostBuildEvent:
+         echo POSTBUILDSTEP for Release - TactonicVisualizerWin
+         xcopy "D:\Library\Tactonic-hp\visualizer\TactonicCode\TactonicDemos -send out version\\..\..\Stable\TactonicLib\lib\tactonic.dll" "D:\Library\Tactonic-hp\visualizer\TactonicCode\TactonicDemos -send out version\\Release"  /y
+         xcopy "D:\Library\Tactonic-hp\visualizer\TactonicCode\TactonicDemos -send out version\\..\..\Stable\TactonicLib\lib\tactonicTouch.dll" "D:\Library\Tactonic-hp\visualizer\TactonicCode\TactonicDemos -send out version\\Release"  /y
+         xcopy "D:\Library\Tactonic-hp\visualizer\TactonicCode\TactonicDemos -send out version\\..\..\Stable\TactonicLib\lib\ftd2xx.dll" "D:\Library\Tactonic-hp\visualizer\TactonicCode\TactonicDemos -send out version\\Release"  /y
+         xcopy "D:\Library\Tactonic-hp\visualizer\TactonicCode\TactonicDemos -send out version\\lib\glut32.dll" "D:\Library\Tactonic-hp\visualizer\TactonicCode\TactonicDemos -send out version\\Release"  /y
+         xcopy "D:\Library\Tactonic-hp\visualizer\TactonicCode\TactonicDemos -send out version\\include\DisplayViews.h" "D:\Library\Tactonic-hp\visualizer\TactonicCode\TactonicDemos -send out version\\..\..\Stable\TactonicSource\include\"  /y
+         xcopy "D:\Library\Tactonic-hp\visualizer\TactonicCode\TactonicDemos -send out version\\src\DisplayViews.cpp" "D:\Library\Tactonic-hp\visualizer\TactonicCode\TactonicDemos -send out version\\..\..\Stable\TactonicSource\src\"  /y
+         xcopy "D:\Library\Tactonic-hp\visualizer\TactonicCode\TactonicDemos -send out version\\src\TactonicVisualizer.cpp" "D:\Library\Tactonic-hp\visualizer\TactonicCode\TactonicDemos -send out version\\..\..\Stable\TactonicSource\src\"  /y
+         xcopy "D:\Library\Tactonic-hp\visualizer\TactonicCode\TactonicDemos -send out version\TactonicVisualizerLogo.tga" "D:\Library\Tactonic-hp\visualizer\TactonicCode\TactonicDemos -send out version\\Release"  /y
+         
+         :VCEnd
+         POSTBUILDSTEP for Release - TactonicVisualizerWin
+         D:\Library\Tactonic-hp\visualizer\TactonicCode\TactonicDemos -send out version\\..\..\Stable\TactonicLib\lib\tactonic.dll
+         1 File(s) copied
+         D:\Library\Tactonic-hp\visualizer\TactonicCode\TactonicDemos -send out version\\..\..\Stable\TactonicLib\lib\tactonicTouch.dll
+         1 File(s) copied
+         D:\Library\Tactonic-hp\visualizer\TactonicCode\TactonicDemos -send out version\\..\..\Stable\TactonicLib\lib\ftd2xx.dll
+         1 File(s) copied
+         D:\Library\Tactonic-hp\visualizer\TactonicCode\TactonicDemos -send out version\\lib\glut32.dll
+         1 File(s) copied
+         D:\Library\Tactonic-hp\visualizer\TactonicCode\TactonicDemos -send out version\\include\DisplayViews.h
+         1 File(s) copied
+         D:\Library\Tactonic-hp\visualizer\TactonicCode\TactonicDemos -send out version\\src\DisplayViews.cpp
+         1 File(s) copied
+         D:\Library\Tactonic-hp\visualizer\TactonicCode\TactonicDemos -send out version\\src\TactonicVisualizer.cpp
+         1 File(s) copied
+         D:\Library\Tactonic-hp\visualizer\TactonicCode\TactonicDemos -send out version\TactonicVisualizerLogo.tga
+         1 File(s) copied
+     1>Done Building Project "D:\Library\Tactonic-hp\visualizer\TactonicCode\TactonicDemos -send out version\TactonicVisualizerWin.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.64

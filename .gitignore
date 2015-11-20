@@ -1,0 +1,6 @@
+*.sdf
+*.opensdf
+*.suo
+/TactonicDLLPlugin/Stable/*
+/TactonicCode/SimpleDLL/*
+*.ipch

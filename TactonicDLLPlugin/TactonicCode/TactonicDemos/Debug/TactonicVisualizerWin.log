@@ -1,0 +1,55 @@
+﻿Build started 11/20/2015 1:05:16 AM.
+     1>Project "D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TactonicDemos\TactonicVisualizerWin.vcxproj" on node 3 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TactonicDemos\\..\..\Stable\TactonicLib\include" /I"D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TactonicDemos\\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt src\Contours.cpp src\DisplayViews.cpp src\TactonicVisualizer.cpp
+         TactonicVisualizer.cpp
+         DisplayViews.cpp
+         Contours.cpp
+     1>d:\library\tactonic-hp-2012\visualizer\tactoniccode\tactonicdemos\src\contours.cpp(41): warning C4554: '>>' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>d:\library\tactonic-hp-2012\visualizer\tactoniccode\tactonicdemos\src\contours.cpp(42): warning C4554: '>>' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>d:\library\tactonic-hp-2012\visualizer\tactoniccode\tactonicdemos\src\contours.cpp(91): warning C4554: '>>' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>d:\library\tactonic-hp-2012\visualizer\tactoniccode\tactonicdemos\src\contours.cpp(95): warning C4554: '>>' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>d:\library\tactonic-hp-2012\visualizer\tactoniccode\tactonicdemos\src\contours.cpp(98): warning C4554: '<<' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>d:\library\tactonic-hp-2012\visualizer\tactoniccode\tactonicdemos\src\contours.cpp(116): warning C4554: '>>' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>d:\library\tactonic-hp-2012\visualizer\tactoniccode\tactonicdemos\src\contours.cpp(117): warning C4554: '>>' : check operator precedence for possible error; use parentheses to clarify precedence
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TactonicDemos\Debug\TactonicVisualizerWin.exe" /NOLOGO /LIBPATH:"D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TactonicDemos\\lib" /LIBPATH:"D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TactonicDemos\\..\..\Stable\TactonicLib\lib" tactonicTouch.lib tactonic.lib glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TactonicDemos\Debug\TactonicVisualizerWin.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TactonicDemos\Debug\TactonicVisualizerWin.lib" /MACHINE:X86 /SAFESEH Debug\Contours.obj
+         Debug\DisplayViews.obj
+         Debug\TactonicVisualizer.obj
+     1>Contours.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         TactonicVisualizerWin.vcxproj -> D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TactonicDemos\Debug\TactonicVisualizerWin.exe
+       PostBuildEvent:
+         echo POSTBUILDSTEP for Debug - TactonicVisualizerWin
+         xcopy "D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TactonicDemos\\..\..\Stable\TactonicLib\lib\tactonic.dll" "D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TactonicDemos\\Debug"  /y
+         xcopy "D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TactonicDemos\\..\..\Stable\TactonicLib\lib\tactonicTouch.dll" "D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TactonicDemos\\Debug"  /y
+         xcopy "D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TactonicDemos\\..\..\Stable\TactonicLib\lib\ftd2xx.dll" "D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TactonicDemos\\Debug"  /y
+         xcopy "D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TactonicDemos\\lib\glut32.dll" "D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TactonicDemos\\Debug"  /y
+         xcopy "D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TactonicDemos\\include\DisplayViews.h" "D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TactonicDemos\\..\..\Stable\TactonicSource\include\"  /y
+         xcopy "D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TactonicDemos\\src\DisplayViews.cpp" "D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TactonicDemos\\..\..\Stable\TactonicSource\src\"  /y
+         xcopy "D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TactonicDemos\\src\TactonicVisualizer.cpp" "D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TactonicDemos\\..\..\Stable\TactonicSource\src\"  /y
+         xcopy "D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TactonicDemos\TactonicVisualizerLogo.tga" "D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TactonicDemos\\Debug"  /y
+         
+         :VCEnd
+         POSTBUILDSTEP for Debug - TactonicVisualizerWin
+         D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TactonicDemos\\..\..\Stable\TactonicLib\lib\tactonic.dll
+         1 File(s) copied
+         D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TactonicDemos\\..\..\Stable\TactonicLib\lib\tactonicTouch.dll
+         1 File(s) copied
+         D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TactonicDemos\\..\..\Stable\TactonicLib\lib\ftd2xx.dll
+         1 File(s) copied
+         D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TactonicDemos\\lib\glut32.dll
+         1 File(s) copied
+         D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TactonicDemos\\include\DisplayViews.h
+         1 File(s) copied
+         D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TactonicDemos\\src\DisplayViews.cpp
+         1 File(s) copied
+         D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TactonicDemos\\src\TactonicVisualizer.cpp
+         1 File(s) copied
+         D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TactonicDemos\TactonicVisualizerLogo.tga
+         1 File(s) copied
+     1>Done Building Project "D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TactonicDemos\TactonicVisualizerWin.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.10

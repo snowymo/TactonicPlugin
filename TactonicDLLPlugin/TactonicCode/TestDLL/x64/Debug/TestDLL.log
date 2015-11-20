@@ -1,0 +1,16 @@
+﻿Build started 11/19/2015 11:25:03 PM.
+     1>Project "D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TestDLL\TestDLL.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TactonicDemos\TactonicDLL" /I"D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TactonicDemos\include" /I"D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TactonicDemos\..\..\Stable\TactonicLib\include" /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt main.cpp
+         main.cpp
+     1>C:\Program Files (x86)\Windows Kits\8.0\Include\shared\minwindef.h(127): warning C4005: 'CALLBACK' : macro redefinition
+                 d:\library\tactonic-hp-2012\visualizer\tactoniccode\tactonicdemos\include\glut.h(34) : see previous definition of 'CALLBACK'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TactonicDemos\x64\Debug\TestDLL.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TactonicDemos\Debug" /LIBPATH:"D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TactonicDemos\lib" TactonicDLL.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TactonicDemos\x64\Debug\TestDLL.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TactonicDemos\x64\Debug\TestDLL.lib" /MACHINE:X64 x64\Debug\main.obj
+     1>main.obj : error LNK2019: unresolved external symbol __imp_getPressDown referenced in function "void __cdecl testTactonicFrame(void)" (?testTactonicFrame@@YAXXZ)
+     1>D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TactonicDemos\x64\Debug\TestDLL.exe : fatal error LNK1120: 1 unresolved externals
+     1>Done Building Project "D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TestDLL\TestDLL.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.45
