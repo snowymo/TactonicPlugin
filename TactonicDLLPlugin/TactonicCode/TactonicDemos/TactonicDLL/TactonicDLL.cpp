@@ -1,6 +1,9 @@
 #include "TactonicDLL.h"
 #include <time.h>
 #include <iostream>
+#include <string>
+
+TactonicDLL* TactonicDLL::m_pInstance = NULL;
 
 TactonicDLL::TactonicDLL(void)
 {
@@ -35,10 +38,10 @@ bool TactonicDLL::getPressDown(int index)
 			for(int j = 0; j < cols; j++){
 				int index = i * cols + j;
 				int curValue = m_pFrame->forces[index];
-				std::cout << "force value:\trow:" << i << "\tcol:" << j << "\t:" << curValue << "\t";
+				//std::cout << "force value:\trow:" << i << "\tcol:" << j << "\t:" << curValue << "\t";
 				value += curValue;
 			}
-			std::cout << "\n";
+			//std::cout << "\n";
 		}
 		return (value > 0);
 	}
@@ -57,12 +60,36 @@ TactonicFrame* TactonicDLL::getFrame()
 	return m_pFrame;
 }
 
-TactonicDLL* TactonicDLL::m_pInstance = NULL;
+bool TactonicDLL::getFrame(int* frame, int* cnt, int* tot)
+{
+	// copy from m_pFrame to frame
+	if(m_pInstance->m_pDeviceList->numDevices != 0){
+		int cols = m_pFrame->cols;
+		int rows = m_pFrame->rows;
+		//float value = 0;
+		for(int i = 0; i < rows; i ++){
+			for(int j = 0; j < cols; j++){
+				int index = i * cols + j;
+				int curValue = m_pFrame->forces[index];
+				if(curValue != 0){
+					OutputDebugStringA(std::to_string(curValue).c_str());
+					++cnt[0];
+				}
+				frame[index] = curValue;
+				tot[0] += curValue;
+			}
+			std::cout << "\n";
+		}
+		return (tot[0] > 0);
+	}
+	return false;
+}
 
 void TactonicDLL::init()
 {
 	// init tactonic module
 	m_pDeviceList = Tactonic_GetDeviceList();                        // Get available devices
+	Sleep(1000);
 	// for now we start with one floor
 	if(m_pDeviceList->numDevices > 0 && m_pDeviceList->numDevices == 1 ){                              // Set up the Tactonic Device and register the callback function
 		device0 = m_pDeviceList->devices[0];                         // Get the device

@@ -96,10 +96,8 @@
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
     <PostBuildEvent>
-      <Command>del D:\Zhenyi\gitRepository\TactonicDLLTest\Assets\Plugins\$(TargetName).dll
-del D:\Zhenyi\gitRepository\TactonicDLLTest\Assets\Plugins\$(TargetName).pdb
-xcopy $(OutDir)$(TargetName).dll D:\Zhenyi\gitRepository\TactonicDLLTest\Assets\Plugins /I /E /Y /D
-xcopy $(OutDir)$(TargetName).pdb D:\Zhenyi\gitRepository\TactonicDLLTest\Assets\Plugins /I /E /Y /D</Command>
+      <Command>
+      </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">

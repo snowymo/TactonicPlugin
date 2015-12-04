@@ -17,6 +17,7 @@ public:
 	bool getPressUp(int index);
 
 	TactonicFrame* getFrame();
+	bool getFrame(int* frame, int* cnt, int* tot);
 
 private:
 	static TactonicDLL* m_pInstance;

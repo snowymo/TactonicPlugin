@@ -1,7 +1,9 @@
 *.sdf
 *.opensdf
 *.suo
+*.tlog
+*.obj
 /TactonicDLLPlugin/Stable/*
-/TactonicCode/SimpleDLL/*
+/TactonicDLLPlugin/TactonicCode/SimpleDLL/*
 *.ipch
 /TactonicDLLUnityTest/Temp/*
