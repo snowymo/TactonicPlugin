@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\TactonicCtrl.cs">
+    <Files>
+      <File FileName="Assets\Scripts\TactonicCtrl.cs" Line="74" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="D:\Zhenyi\gitRepository\TactonicPlugin\TactonicDLLUnityTest\Assets\Scripts\TactonicCtrl.cs" line="75" />
+      <Breakpoint file="D:\Zhenyi\gitRepository\TactonicPlugin\TactonicDLLUnityTest\Assets\Scripts\TactonicCtrl.cs" line="74" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

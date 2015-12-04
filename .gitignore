@@ -4,3 +4,4 @@
 /TactonicDLLPlugin/Stable/*
 /TactonicCode/SimpleDLL/*
 *.ipch
+/TactonicDLLUnityTest/Temp/*
