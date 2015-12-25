@@ -1,17 +1,17 @@
-﻿Build started 12/4/2015 12:19:07 AM.
-     1>Project "D:\Zhenyi\gitRepository\TactonicPlugin\TactonicDLLPlugin\TactonicCode\TactonicDemos\TactonicDLL\TactonicDLL.vcxproj" on node 2 (Rebuild target(s)).
+﻿Build started 12/24/2015 6:18:25 PM.
+     1>Project "E:\zhenyi\TactonicPlugin\TactonicDLLPlugin\TactonicCode\TactonicDemos\TactonicDLL\TactonicDLL.vcxproj" on node 2 (Rebuild target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ID:\Zhenyi\gitRepository\TactonicPlugin\TactonicDLLPlugin\TactonicCode\TactonicDemos\include /ID:\Zhenyi\gitRepository\TactonicPlugin\TactonicDLLPlugin\TactonicCode\TactonicDemos\..\..\Stable\TactonicLib\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D TACTONICDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ExportTactonicDLL.cpp TactonicDLL.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IE:\zhenyi\TactonicPlugin\TactonicDLLPlugin\TactonicCode\TactonicDemos\include /IE:\zhenyi\TactonicPlugin\TactonicDLLPlugin\TactonicCode\TactonicDemos\..\..\Stable\TactonicLib\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D TACTONICDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ExportTactonicDLL.cpp TactonicDLL.cpp
          TactonicDLL.cpp
          ExportTactonicDLL.cpp
          Generating Code...
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Zhenyi\gitRepository\TactonicPlugin\TactonicDLLPlugin\TactonicCode\TactonicDemos\Debug\TactonicDLL.dll" /INCREMENTAL /NOLOGO /LIBPATH:D:\Zhenyi\gitRepository\TactonicPlugin\TactonicDLLPlugin\TactonicCode\TactonicDemos\lib /LIBPATH:D:\Zhenyi\gitRepository\TactonicPlugin\TactonicDLLPlugin\TactonicCode\TactonicDemos\..\..\Stable\TactonicLib\lib tactonic.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Zhenyi\gitRepository\TactonicPlugin\TactonicDLLPlugin\TactonicCode\TactonicDemos\Debug\TactonicDLL.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Zhenyi\gitRepository\TactonicPlugin\TactonicDLLPlugin\TactonicCode\TactonicDemos\Debug\TactonicDLL.lib" /MACHINE:X86 /SAFESEH:NO /DLL Debug\ExportTactonicDLL.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\zhenyi\TactonicPlugin\TactonicDLLPlugin\TactonicCode\TactonicDemos\Debug\TactonicDLL.dll" /INCREMENTAL /NOLOGO /LIBPATH:E:\zhenyi\TactonicPlugin\TactonicDLLPlugin\TactonicCode\TactonicDemos\lib /LIBPATH:E:\zhenyi\TactonicPlugin\TactonicDLLPlugin\TactonicCode\TactonicDemos\..\..\Stable\TactonicLib\lib tactonic.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\zhenyi\TactonicPlugin\TactonicDLLPlugin\TactonicCode\TactonicDemos\Debug\TactonicDLL.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\zhenyi\TactonicPlugin\TactonicDLLPlugin\TactonicCode\TactonicDemos\Debug\TactonicDLL.lib" /MACHINE:X86 /SAFESEH:NO /DLL Debug\ExportTactonicDLL.obj
          Debug\TactonicDLL.obj
-            Creating library D:\Zhenyi\gitRepository\TactonicPlugin\TactonicDLLPlugin\TactonicCode\TactonicDemos\Debug\TactonicDLL.lib and object D:\Zhenyi\gitRepository\TactonicPlugin\TactonicDLLPlugin\TactonicCode\TactonicDemos\Debug\TactonicDLL.exp
-         TactonicDLL.vcxproj -> D:\Zhenyi\gitRepository\TactonicPlugin\TactonicDLLPlugin\TactonicCode\TactonicDemos\Debug\TactonicDLL.dll
-     1>Done Building Project "D:\Zhenyi\gitRepository\TactonicPlugin\TactonicDLLPlugin\TactonicCode\TactonicDemos\TactonicDLL\TactonicDLL.vcxproj" (Rebuild target(s)).
+            Creating library E:\zhenyi\TactonicPlugin\TactonicDLLPlugin\TactonicCode\TactonicDemos\Debug\TactonicDLL.lib and object E:\zhenyi\TactonicPlugin\TactonicDLLPlugin\TactonicCode\TactonicDemos\Debug\TactonicDLL.exp
+         TactonicDLL.vcxproj -> E:\zhenyi\TactonicPlugin\TactonicDLLPlugin\TactonicCode\TactonicDemos\Debug\TactonicDLL.dll
+     1>Done Building Project "E:\zhenyi\TactonicPlugin\TactonicDLLPlugin\TactonicCode\TactonicDemos\TactonicDLL\TactonicDLL.vcxproj" (Rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:02.39
+Time Elapsed 00:00:01.67

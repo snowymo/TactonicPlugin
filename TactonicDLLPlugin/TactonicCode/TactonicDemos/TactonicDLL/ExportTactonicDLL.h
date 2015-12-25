@@ -13,6 +13,6 @@ extern "C" bool _DLLExport getPressDown(int index);
 
 extern "C" bool _DLLExport getPressUp(int index);
 
-extern "C" bool _DLLExport getFrame(int* frame, int* nCount, int* nTotal);
+extern "C" bool _DLLExport getFrame(int* frame, int* nDevice, int* nCount, int* nTotal);
 
 #endif

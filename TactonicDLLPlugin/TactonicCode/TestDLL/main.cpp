@@ -14,7 +14,8 @@ void testTactonicFrame()
 	cnt[0] = 0;
 	int * tot = new int[1];
 	tot[0] = 0;
-	getFrame(frame, cnt, tot);
+	int * dvn = new int[1];
+	getFrame(frame, dvn, cnt, tot);
 	return;
 }
 

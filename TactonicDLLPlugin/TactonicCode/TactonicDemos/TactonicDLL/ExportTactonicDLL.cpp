@@ -13,7 +13,7 @@ extern "C" bool _DLLExport getPressUp(int index)
 	return TactonicDLL::getInstance()->getPressUp(index);
 }
 
-extern "C" bool _DLLExport getFrame(int* frame, int* nCount, int* nTotal)
+extern "C" bool _DLLExport getFrame(int* frame, int* nDevice, int* nCount, int* nTotal)
 {
-	return TactonicDLL::getInstance()->getFrame(frame, nCount, nTotal);
+	return TactonicDLL::getInstance()->getFrame(frame, nDevice, nCount, nTotal);
 }

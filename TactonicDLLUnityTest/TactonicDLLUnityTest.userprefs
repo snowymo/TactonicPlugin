@@ -2,13 +2,19 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\TactonicCtrl.cs">
     <Files>
-      <File FileName="Assets\Scripts\TactonicCtrl.cs" Line="84" Column="6" />
+      <File FileName="Assets\Scripts\TactonicCtrl.cs" Line="67" Column="67" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="D:\Zhenyi\gitRepository\TactonicPlugin\TactonicDLLUnityTest\Assets\Scripts\TactonicCtrl.cs" line="75" />
-      <Breakpoint file="D:\Zhenyi\gitRepository\TactonicPlugin\TactonicDLLUnityTest\Assets\Scripts\TactonicCtrl.cs" line="74" />
+      <Breakpoint file="D:\Zhenyi\gitRepository\TactonicPlugin\TactonicDLLUnityTest\Assets\Scripts\TactonicCtrl.cs" line="103" />
+      <Breakpoint file="D:\Zhenyi\gitRepository\TactonicPlugin\TactonicDLLUnityTest\Assets\Scripts\TactonicCtrl.cs" line="120" />
+      <Breakpoint file="D:\Zhenyi\gitRepository\TactonicPlugin\TactonicDLLUnityTest\Assets\Scripts\TactonicCtrl.cs" line="62" />
+      <Breakpoint file="D:\Zhenyi\gitRepository\TactonicPlugin\TactonicDLLUnityTest\Assets\Scripts\TactonicCtrl.cs" line="76" />
+      <Breakpoint file="E:\zhenyi\TactonicPlugin\TactonicDLLUnityTest\Assets\Scripts\TactonicCtrl.cs" line="91" />
+      <Breakpoint file="E:\zhenyi\TactonicPlugin\TactonicDLLUnityTest\Assets\Scripts\TactonicCtrl.cs" line="109" />
+      <Breakpoint file="E:\zhenyi\TactonicPlugin\TactonicDLLUnityTest\Assets\Scripts\TactonicCtrl.cs" line="126" />
+      <Breakpoint file="E:\zhenyi\TactonicPlugin\TactonicDLLUnityTest\Assets\Scripts\TactonicCtrl.cs" line="99" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
