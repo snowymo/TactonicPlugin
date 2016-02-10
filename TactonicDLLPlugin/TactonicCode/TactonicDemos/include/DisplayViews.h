@@ -96,6 +96,7 @@ public:
 	
 	void init(TactonicDevice device, int argc, char** argv);                            // Initialize the display view for a device
 	void display(TactonicFrame* frame, TactonicTouchFrame* touchFrame);		// Display a frame of data
+	void display(TactonicFrame* frame);		// Display a frame of data
 	void drawDeviceBorder();                                                // Draw border
 	void drawDeviceWires();                                                 // Draw wires
 	void setColor(float color);                                             // Set color. blue to red

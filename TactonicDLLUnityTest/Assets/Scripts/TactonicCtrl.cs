@@ -24,18 +24,18 @@ public class TactonicCtrl : MonoBehaviour {
 	private GameObject[] framePlanes;
 	
 	// for cpp plugin
-	[DllImport("TactonicDLL")]
-	static extern bool getPressUp(int index);
+//	[DllImport("TactonicDLL")]
+//	static extern bool getPressUp(int index);
 
 	//[DllImport("SimpleDLL")]
-	[DllImport("TactonicDLL")]
-	static extern bool getPressDown(int index);
+//	[DllImport("TactonicDLL")]
+//	static extern bool getPressDown(int index);
 
-	[DllImport("SimpleDLL")]
-	static extern int getInt();
+//	[DllImport("SimpleDLL")]
+//	static extern int getInt();
 
-	[DllImport("TactonicDLL")]
-	static extern bool getFrame (int[] frame, int[] nDevice, int[] nCount, int[] nTotal);
+//	[DllImport("TactonicDLL")]
+//	static extern bool getFrame (int[] frame, int[] nDevice, int[] nCount, int[] nTotal);
 
 	[DllImport("SingleTactonicDLL")]
 	static extern bool getMultiFrame (int[] frame, int[] nDevice, int[] nCount, int[] nTotal);
@@ -64,7 +64,7 @@ public class TactonicCtrl : MonoBehaviour {
 
 		framePlanes = new GameObject[8];
 		for (int i = 0; i < framePlanes.Length; i++) {
-			framePlanes [i] = Instantiate (framePlane, new Vector3(10*i,0,0), Quaternion.identity) as GameObject;
+			framePlanes [i] = Instantiate (framePlane, new Vector3(0,0,-10*i), Quaternion.identity) as GameObject;
 			framePlanes[i].name = "frame" + i.ToString();
 			framePlanes[i].GetComponent<Renderer>().enabled = false;
 		}

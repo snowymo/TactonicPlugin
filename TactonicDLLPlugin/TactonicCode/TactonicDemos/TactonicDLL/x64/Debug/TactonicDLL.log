@@ -1,26 +1,5 @@
-﻿Build started 11/19/2015 11:25:00 PM.
-     1>Project "D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TactonicDemos\TactonicDLL\TactonicDLL.vcxproj" on node 2 (Rebuild target(s)).
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TactonicDemos\include" /I"D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TactonicDemos\..\..\Stable\TactonicLib\include" /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D TACTONICDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt ExportTactonicDLL.cpp TactonicDLL.cpp
-         TactonicDLL.cpp
-     1>C:\Program Files (x86)\Windows Kits\8.0\Include\shared\minwindef.h(127): warning C4005: 'CALLBACK' : macro redefinition
-                 d:\library\tactonic-hp-2012\visualizer\tactoniccode\tactonicdemos\include\glut.h(34) : see previous definition of 'CALLBACK'
-         ExportTactonicDLL.cpp
-     1>C:\Program Files (x86)\Windows Kits\8.0\Include\shared\minwindef.h(127): warning C4005: 'CALLBACK' : macro redefinition
-                 d:\library\tactonic-hp-2012\visualizer\tactoniccode\tactonicdemos\include\glut.h(34) : see previous definition of 'CALLBACK'
-         Generating Code...
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TactonicDemos\x64\Debug\TactonicDLL.dll" /INCREMENTAL /NOLOGO /LIBPATH:"D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TactonicDemos\lib" /LIBPATH:"D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TactonicDemos\..\..\Stable\TactonicLib\lib" tactonic.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TactonicDemos\x64\Debug\TactonicDLL.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TactonicDemos\x64\Debug\TactonicDLL.lib" /MACHINE:X64 /DLL x64\Debug\ExportTactonicDLL.obj
-         x64\Debug\TactonicDLL.obj
-            Creating library D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TactonicDemos\x64\Debug\TactonicDLL.lib and object D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TactonicDemos\x64\Debug\TactonicDLL.exp
-     1>TactonicDLL.obj : error LNK2019: unresolved external symbol Tactonic_GetDeviceList referenced in function "private: void __cdecl TactonicDLL::init(void)" (?init@TactonicDLL@@AEAAXXZ)
-     1>TactonicDLL.obj : error LNK2019: unresolved external symbol Tactonic_StartDevice referenced in function "private: void __cdecl TactonicDLL::init(void)" (?init@TactonicDLL@@AEAAXXZ)
-     1>TactonicDLL.obj : error LNK2019: unresolved external symbol Tactonic_CreateFrame referenced in function "private: void __cdecl TactonicDLL::init(void)" (?init@TactonicDLL@@AEAAXXZ)
-     1>TactonicDLL.obj : error LNK2019: unresolved external symbol Tactonic_CopyFrame referenced in function "void __cdecl frameCallback(struct tactonic_frame_event_s *)" (?frameCallback@@YAXPEAUtactonic_frame_event_s@@@Z)
-     1>TactonicDLL.obj : error LNK2019: unresolved external symbol Tactonic_AddFrameCallback referenced in function "private: void __cdecl TactonicDLL::init(void)" (?init@TactonicDLL@@AEAAXXZ)
-     1>D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TactonicDemos\x64\Debug\TactonicDLL.dll : fatal error LNK1120: 5 unresolved externals
-     1>Done Building Project "D:\Library\Tactonic-hp-2012\visualizer\TactonicCode\TactonicDemos\TactonicDLL\TactonicDLL.vcxproj" (Rebuild target(s)) -- FAILED.
+﻿Build started 2/10/2016 4:36:52 PM.
 
-Build FAILED.
+Build succeeded.
 
-Time Elapsed 00:00:03.16
+Time Elapsed 00:00:00.00

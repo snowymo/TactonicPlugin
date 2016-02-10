@@ -34,35 +34,6 @@ TactonicDLL* TactonicDLL::getInstance()
 	return m_pInstance;
 }
 
-bool TactonicDLL::getPressDown(int index)
-{
-	// everything is stored in frame.force
-	// it is a 2D array stored in 1D
-	if(m_pInstance->m_pDeviceList->numDevices != 0){
-		int cols = m_pFrame[0]->cols;
-		int rows = m_pFrame[0]->rows;
-		float value = 0;
-		for(int i = 0; i < rows; i ++){
-			for(int j = 0; j < cols; j++){
-				int index = i * cols + j;
-				int curValue = m_pFrame[0]->forces[index];
-				//std::cout << "force value:\trow:" << i << "\tcol:" << j << "\t:" << curValue << "\t";
-				value += curValue;
-			}
-			//std::cout << "\n";
-		}
-		return (value > 0);
-	}
-	else
-		return false;
-}
-
-bool TactonicDLL::getPressUp(int index)
-{
-	
-	return false;
-}
-
 TactonicFrame* TactonicDLL::getFrame(int frameIdx)
 {
 	return &m_pFrame[frameIdx][0];
@@ -178,4 +149,33 @@ void frameCallbackTest(TactonicFrameEvent* evt)
 	Tactonic_CopyFrame(evt->frame,TactonicDLL::getInstance()->m_pTestFrame);               // Copy the callback frame to a local frame
 	memcpy_s(TactonicDLL::getInstance()->getFrame(0),sizeof(TactonicFrame),
 		TactonicDLL::getInstance()->m_pTestFrame,sizeof(TactonicFrame));
+}
+
+bool TactonicDLL::getPressDown(int index)
+{
+	// everything is stored in frame.force
+	// it is a 2D array stored in 1D
+	if(m_pInstance->m_pDeviceList->numDevices != 0){
+		int cols = m_pFrame[0]->cols;
+		int rows = m_pFrame[0]->rows;
+		float value = 0;
+		for(int i = 0; i < rows; i ++){
+			for(int j = 0; j < cols; j++){
+				int index = i * cols + j;
+				int curValue = m_pFrame[0]->forces[index];
+				//std::cout << "force value:\trow:" << i << "\tcol:" << j << "\t:" << curValue << "\t";
+				value += curValue;
+			}
+			//std::cout << "\n";
+		}
+		return (value > 0);
+	}
+	else
+		return false;
+}
+
+bool TactonicDLL::getPressUp(int index)
+{
+	
+	return false;
 }

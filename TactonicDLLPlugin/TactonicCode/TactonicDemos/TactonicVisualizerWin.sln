@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TactonicVisualizerWin", "TactonicVisualizerWin.vcxproj", "{DB37D910-1615-4D74-9C64-DFEEC7419F30}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestDLL", "..\TestDLL\TestDLL.vcxproj", "{3232DE87-21E1-4BC8-830B-6DB91215C032}"
@@ -67,7 +69,8 @@ Global
 		{A28A0C9F-0473-4BAE-90A2-8C1108570E9A}.Debug|ARM.ActiveCfg = Debug|Win32
 		{A28A0C9F-0473-4BAE-90A2-8C1108570E9A}.Debug|Win32.ActiveCfg = Debug|Win32
 		{A28A0C9F-0473-4BAE-90A2-8C1108570E9A}.Debug|Win32.Build.0 = Debug|Win32
-		{A28A0C9F-0473-4BAE-90A2-8C1108570E9A}.Debug|x64.ActiveCfg = Debug|Win32
+		{A28A0C9F-0473-4BAE-90A2-8C1108570E9A}.Debug|x64.ActiveCfg = Debug|x64
+		{A28A0C9F-0473-4BAE-90A2-8C1108570E9A}.Debug|x64.Build.0 = Debug|x64
 		{A28A0C9F-0473-4BAE-90A2-8C1108570E9A}.Release|ARM.ActiveCfg = Release|Win32
 		{A28A0C9F-0473-4BAE-90A2-8C1108570E9A}.Release|Win32.ActiveCfg = Release|Win32
 		{A28A0C9F-0473-4BAE-90A2-8C1108570E9A}.Release|Win32.Build.0 = Release|Win32
@@ -83,8 +86,5 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(Performance) = preSolution
-		HasPerformanceSessions = true
 	EndGlobalSection
 EndGlobal

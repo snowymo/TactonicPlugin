@@ -180,6 +180,42 @@ void DisplayViews::display(TactonicFrame* frame, TactonicTouchFrame* touchFrame)
     Sleep(30);
 }
 
+void DisplayViews::display(TactonicFrame* frame)
+{
+	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+    glColor3f(0.0f, 0.0f, 0.0f);
+	glPushMatrix();
+    
+    if(view == GAUSSIAN_VIEW){
+        applyGaussian(frame);
+        gaussianView();
+        memset(blurForces, 0, 3*device.rows*3*device.cols*sizeof(int));
+        drawDeviceBorder();
+    }
+    else if(view == SENSEL_VIEW){
+        drawDeviceWires();
+        senselView(frame);
+        drawDeviceBorder();
+    }
+    else if(view == CONTOUR_VIEW){
+		
+        applyGaussian(frame);
+		contourView();
+        memset(blurForces, 0, 3*device.rows*3*device.cols*sizeof(int));
+	}
+	
+    drawLogo();
+	
+   if(view == TEXT_VIEW){
+        drawDeviceBorder();
+        textView(frame);
+    }
+	glPopMatrix();
+	glPopMatrix();
+	glutSwapBuffers();
+    Sleep(30);
+}
+
 void DisplayViews::drawDeviceWires(){
 	glBegin(GL_LINES);
 	int tileWidth = colSpacingPix*device.cols;

@@ -1,0 +1,25 @@
+﻿Build started 2/10/2016 4:39:14 PM.
+     1>Project "D:\Zhenyi\gitRepository\TactonicPlugin\TactonicDLLPlugin\TactonicCode\SingleTactonicDLL\SingleTactonicDLL.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /ID:\Zhenyi\gitRepository\TactonicPlugin\TactonicDLLPlugin\TactonicCode\TactonicDemos\include /ID:\Zhenyi\gitRepository\TactonicPlugin\TactonicDLLPlugin\TactonicCode\TactonicDemos\..\..\Stable\TactonicLib\include /ZI /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D SINGLETACTONICDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt ExportTactonicDLL.cpp TactonicDLL.cpp TactonicDLLDiscard.cpp
+         TactonicDLLDiscard.cpp
+     1>c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(127): warning C4005: 'CALLBACK': macro redefinition
+         d:\zhenyi\gitrepository\tactonicplugin\tactonicdllplugin\tactoniccode\tactonicdemos\include\glut.h(34): note: see previous definition of 'CALLBACK'
+         TactonicDLL.cpp
+     1>c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(127): warning C4005: 'CALLBACK': macro redefinition
+         d:\zhenyi\gitrepository\tactonicplugin\tactonicdllplugin\tactoniccode\tactonicdemos\include\glut.h(34): note: see previous definition of 'CALLBACK'
+         ExportTactonicDLL.cpp
+     1>c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(127): warning C4005: 'CALLBACK': macro redefinition
+         d:\zhenyi\gitrepository\tactonicplugin\tactonicdllplugin\tactoniccode\tactonicdemos\include\glut.h(34): note: see previous definition of 'CALLBACK'
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Zhenyi\gitRepository\TactonicPlugin\TactonicDLLPlugin\TactonicCode\TactonicDemos\x64\Debug\SingleTactonicDLL.dll" /INCREMENTAL /NOLOGO /LIBPATH:D:\Zhenyi\gitRepository\TactonicPlugin\TactonicDLLPlugin\TactonicCode\TactonicDemos\..\..\Stable\TactonicLib\lib /LIBPATH:D:\Zhenyi\gitRepository\TactonicPlugin\TactonicDLLPlugin\TactonicCode\TactonicDemos\lib tactonic.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\Zhenyi\gitRepository\TactonicPlugin\TactonicDLLPlugin\TactonicCode\TactonicDemos\x64\Debug\SingleTactonicDLL.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Zhenyi\gitRepository\TactonicPlugin\TactonicDLLPlugin\TactonicCode\TactonicDemos\x64\Debug\SingleTactonicDLL.lib" /MACHINE:X64 /DLL x64\Debug\ExportTactonicDLL.obj
+         x64\Debug\TactonicDLL.obj
+         x64\Debug\TactonicDLLDiscard.obj
+            Creating library D:\Zhenyi\gitRepository\TactonicPlugin\TactonicDLLPlugin\TactonicCode\TactonicDemos\x64\Debug\SingleTactonicDLL.lib and object D:\Zhenyi\gitRepository\TactonicPlugin\TactonicDLLPlugin\TactonicCode\TactonicDemos\x64\Debug\SingleTactonicDLL.exp
+         SingleTactonicDLL.vcxproj -> D:\Zhenyi\gitRepository\TactonicPlugin\TactonicDLLPlugin\TactonicCode\TactonicDemos\x64\Debug\SingleTactonicDLL.dll
+     1>Done Building Project "D:\Zhenyi\gitRepository\TactonicPlugin\TactonicDLLPlugin\TactonicCode\SingleTactonicDLL\SingleTactonicDLL.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.50

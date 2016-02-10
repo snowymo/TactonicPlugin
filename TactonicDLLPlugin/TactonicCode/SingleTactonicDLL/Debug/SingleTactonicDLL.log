@@ -1,17 +1,5 @@
-﻿Build started 12/24/2015 9:07:20 PM.
-     1>Project "E:\zhenyi\TactonicPlugin\TactonicDLLPlugin\TactonicCode\SingleTactonicDLL\SingleTactonicDLL.vcxproj" on node 2 (Rebuild target(s)).
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IE:\zhenyi\TactonicPlugin\TactonicDLLPlugin\TactonicCode\TactonicDemos\include /IE:\zhenyi\TactonicPlugin\TactonicDLLPlugin\TactonicCode\TactonicDemos\..\..\Stable\TactonicLib\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D SINGLETACTONICDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ExportTactonicDLL.cpp TactonicDLL.cpp
-         TactonicDLL.cpp
-         ExportTactonicDLL.cpp
-         Generating Code...
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\zhenyi\TactonicPlugin\TactonicDLLPlugin\TactonicCode\TactonicDemos\Debug\SingleTactonicDLL.dll" /INCREMENTAL /NOLOGO /LIBPATH:E:\zhenyi\TactonicPlugin\TactonicDLLPlugin\TactonicCode\TactonicDemos\..\..\Stable\TactonicLib\lib /LIBPATH:E:\zhenyi\TactonicPlugin\TactonicDLLPlugin\TactonicCode\TactonicDemos\lib tactonic.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\zhenyi\TactonicPlugin\TactonicDLLPlugin\TactonicCode\TactonicDemos\Debug\SingleTactonicDLL.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\zhenyi\TactonicPlugin\TactonicDLLPlugin\TactonicCode\TactonicDemos\Debug\SingleTactonicDLL.lib" /MACHINE:X86 /DLL Debug\ExportTactonicDLL.obj
-         Debug\TactonicDLL.obj
-            Creating library E:\zhenyi\TactonicPlugin\TactonicDLLPlugin\TactonicCode\TactonicDemos\Debug\SingleTactonicDLL.lib and object E:\zhenyi\TactonicPlugin\TactonicDLLPlugin\TactonicCode\TactonicDemos\Debug\SingleTactonicDLL.exp
-         SingleTactonicDLL.vcxproj -> E:\zhenyi\TactonicPlugin\TactonicDLLPlugin\TactonicCode\TactonicDemos\Debug\SingleTactonicDLL.dll
-     1>Done Building Project "E:\zhenyi\TactonicPlugin\TactonicDLLPlugin\TactonicCode\SingleTactonicDLL\SingleTactonicDLL.vcxproj" (Rebuild target(s)).
+﻿Build started 2/10/2016 4:36:54 PM.
 
 Build succeeded.
 
-Time Elapsed 00:00:01.68
+Time Elapsed 00:00:00.01
